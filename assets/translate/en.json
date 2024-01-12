@@ -1,0 +1,97 @@
+{
+    "data": {
+        "content": {
+            "general_page": {
+                "recommends_title": "Recommendations",
+                "history_title": "History",
+                "chat_title": "Chat",
+                "settings_title": "Settings",
+                "history_no_data_message": "You don't have any chat history yet",
+                "create_new_chat": "Start New Chat",
+                "message_count": "Message",
+                "limitless_reach": "Unlimited Access",
+                "an_error_occurred": "An error occurred! Please try again.",
+                "message_copied": "Message copied!",
+                "dark_theme": "Dark Theme",
+                "light_theme": "Light Theme"
+            },
+            "input_page": {
+                "write_message": "Write your message"
+            },
+            "chat_page": {
+                "gpt_3_message": "Hello! You can send your message or choose from recommendations.",
+                "gpt_4_message": "Hello! You can get more creative and accurate answers with GPT-4. You can send your message or choose from recommendations.",
+                "export_as_pdf": "Export as PDF",
+                "copy_message": "Copy Message",
+                "share_message": "Share Message",
+                "extend_answer": "Elaborate Answer",
+                "shorten_answer": "Summarize Answer",
+                "regenerate_answer": "Regenerate",
+                "continue_answer": "Continue",
+                "more_options": "More Options",
+                "premium_limit_message": "Sorry! You've reached the message limit. With the free plan, you can only send {free_action_count} messages. Upgrade to the premium plan to send unlimited messages.",
+                "stop_answer": "Stop",
+                "you_title" : "You"
+            },
+            "subscription_page": {
+                "title": "Unlimited Access and Enhanced AI Experience",
+                "gpt_4_title": "Enhanced Experience with GPT-4",
+                "gpt_4_description": "More creative and accurate answers",
+                "character_limit_title": "Expanded Character Limit",
+                "character_limit_description": "Write more meaningful and longer messages",
+                "unlimited_messaging_title": "Unlimited Messaging Rights",
+                "unlimited_messaging_description": "Send unlimited messages",
+                "ad_free_title": "Ad-Free My AI Experience",
+                "ad_free_description": "Focus on content without ads",
+                "discount": "Discount",
+                "privacy_policy": "Privacy",
+                "terms_of_service": "Terms",
+                "recover_subscription": "Restore",
+                "cancel_everytime": "Cancel Anytime You Want",
+                "start_free_trial": "Start Free Trial",
+                "continue_button": "Continue",
+                "welcome_to_premium": "Welcome to Premium Account. All limits have been removed!",
+                "no_recovers": "No subscription found to restore!",
+                "offer_code_invalid": "Offer code is invalid!",
+                "offer_code_title": "Offer Code",
+                "offer_code_description": "If you have a referral code, you can enter the code here!",
+                "offer_code_placeholder": "Enter your offer code",
+                "offer_code_button": "Apply",
+                "weekly_subscription_price_title": "Weekly",
+                "weekly_subscription_price_description": "3 Days Free Trial, Auto Renewal",
+                "monthly_subscription_price_title": "Monthly",
+                "monthly_subscription_price_description": "3 Days Free Trial, Auto Renewal",
+                "lifetime_subscription_price_title": "Lifetime",
+                "lifetime_subscription_price_description": "One Time Payment"
+            },
+            "settings_page": {
+                "follow_on_twitter": "Follow Us on Twitter",
+                "rate_us": "Rate Us!",
+                "write_us": "Contact Us",
+                "share_with_friends": "Share My AI",
+                "recover_subscription": "Restore Subscription",
+                "privacy_policy": "Privacy Policy",
+                "terms_of_service": "Terms of Service",
+                "change_theme": "Change Theme"
+            },
+            "pop_up": {
+                "subscription_info_title": "Cancellation Terms",
+                "subscription_info_description": "You can cancel your subscription anytime. This way, your subscription won't renew in the next subscription period!",
+                "subscription_info_button": "Got It",
+                "update_info_title": "Update Required",
+                "update_info_description": "Please update the application!",
+                "update_info_button": "Update",
+                "connection_error_title": "Connection Error",
+                "connection_error_description": "Please check your internet connection!",
+                "connection_error_button": "Try Again",
+                "cancel_button": "Cancel",
+                "clear_history_title": "Clear History",
+                "clear_history_description": "Your history will be deleted. This action cannot be undone!",
+                "clear_history_positive_button": "Clear",
+                "delete_chat_title": "Delete Chat",
+                "delete_chat_description": "Your chat will be deleted. This action cannot be undone!",
+                "delete_chat_positive_button": "Delete"
+            }
+        }
+    }
+}

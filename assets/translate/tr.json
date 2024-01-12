@@ -1,0 +1,97 @@
+{
+    "data":{
+        "content":{
+            "general_page":{
+                "recommends_title" : "Öneriler",
+                "history_title": "Geçmiş",
+                "chat_title": "Sohbet",
+                "settings_title": "Ayarlar",
+                "history_no_data_message": "Henüz bir sohbet geçmişiniz bulunmamaktadır",
+                "create_new_chat": "Yeni Sohbet Başlat",
+                "message_count": "Mesaj",
+                "limitless_reach": "Sınırsız Erişim",
+                "an_error_occurred": "Bir hata oluştu! Lütfen tekrar deneyin.",
+                "message_copied": "Mesaj kopyalandı!",
+                "dark_theme": "Koyu Tema",
+                "light_theme": "Açık Tema"
+            },
+            "input_page": {
+                "write_message": "Mesajınızı yazın"
+            },
+            "chat_page": {
+                "gpt_3_message": "Merhaba! Mesajınızı gönderebilir veya önerilerden seçim yapabilirsiniz.",
+                "gpt_4_message": "Merhaba! GPT-4 ile daha yaratıcı ve kesin cevaplar alabilirsiniz. Mesajınızı gönderebilir veya önerilerden seçim yapabilirsiniz.",
+                "export_as_pdf":  "PDF olarak dışa aktar",
+                "copy_message": "Mesajı kopyala",
+                "share_message": "Mesajı paylaş",
+                "extend_answer": "Cevabı detaylandır",
+                "shorten_answer": "Cevabı özetle",
+                "regenerate_answer": "Yeniden Oluştur",
+                "continue_answer": "Devam Et",
+                "more_options": "Daha Fazla",
+                "premium_limit_message": "Üzgünüz! Mesaj sınırına ulaştınız! Ücretsiz planla yalnızca {free_action_count} mesaj gönderebilirsiniz. Premium plana geçerek sınırsız mesaj gönderebilirsiniz.",
+                "stop_answer": "Durdur",
+                "you_title" : "Sen"
+            },
+            "subscription_page": {
+                "title": "Sınırsız Erişim ve Gelişmiş AI Deneyimi",
+                "gpt_4_title": "GPT-4 ile Gelişmiş Deneyim",
+                "gpt_4_description": "Daha yaratıcı ve kesin cevaplar",
+                "character_limit_title": "Genişletilmiş Karakter Sınırı",
+                "character_limit_description": "Daha anlamlı ve uzun mesajlar yazın",
+                "unlimited_messaging_title": "Sınırsız Mesajlaşma Hakları",
+                "unlimited_messaging_description": "Sınırsız mesajlar gönderin",
+                "ad_free_title": "Reklamsız My AI Deneyimi",
+                "ad_free_description": "Reklamlar olmadan içeriğe odaklanın",
+                "discount": "İndirim",
+                "privacy_policy": "Gizlilik",
+                "terms_of_service": "Koşullar",
+                "recover_subscription": "Geri Yükle",
+                "cancel_everytime": "İstediğin Zaman İptal Et",
+                "start_free_trial": "Ücretsiz Deneme Başlat",
+                "continue_button": "Devam Et",
+                "welcome_to_premium": "Premium Hesaba Hoşgeldin. Tüm sınırlar kaldırıldı!",
+                "no_recovers": "Geri yüklenecek bir abonelik bulunamadı!",
+                "offer_code_invalid": "Geçersiz teklif kodu!",
+                "offer_code_title": "Teklif Kodu",
+                "offer_code_description": "Eğer bir tavsiye kodu aldıysanız, kodu buraya girebilirsiniz!",
+                "offer_code_placeholder": "Kodunuzu girin",
+                "offer_code_button": "Kullan",
+                "weekly_subscription_price_title": "Haftalık",
+                "weekly_subscription_price_description": "3 Gün Ücretsiz Deneme, Otomatik yenileme",
+                "monthly_subscription_price_title": "Aylık",
+                "monthly_subscription_price_description": "3 Gün Ücretsiz Deneme, Otomatik yenileme",
+                "lifetime_subscription_price_title": "Ömür Boyu",
+                "lifetime_subscription_price_description": "Bir Kez Ücret Alınır"
+            },
+            "settings_page":{
+                "follow_on_twitter": "Twitter'da Takip Et",
+                "rate_us": "Bizi Değerlendirin!",
+                "write_us": "Bize Yazın",
+                "share_with_friends": "My AI'ı Paylaş",
+                "recover_subscription": "Aboneliği geri yükle",
+                "privacy_policy": "Gizlilik Politikası",
+                "terms_of_service": "Kullanım Koşulları",
+                "change_theme": "Tema Değiştir"
+            },
+            "pop_up": {
+                "subscription_info_title": "İptal Koşulları",
+                "subscription_info_description": "Aboneliğinizi dilediğiniz zaman iptal edebilirsiniz. Böylece bir sonraki abonelik döneminde aboneliğiniz yenilenmez!",
+                "subscription_info_button": "Anladım",
+                "update_info_title": "Güncelleme Gerekiyor",
+                "update_info_description": "Lütfen uygulamayı güncelleyin!",
+                "update_info_button": "Güncelle",
+                "connection_error_title": "Bağlantı Hatası",
+                "connection_error_description": "Lütfen internet bağlantınızı kontrol edin!",
+                "connection_error_button": "Tekrar Dene",
+                "cancel_button": "İptal",
+                "clear_history_title": "Geçmişi Temizle",
+                "clear_history_description": "Geçmişiniz silinecek. Bu işlem geri alınamaz!",
+                "clear_history_positive_button": "Temizle",
+                "delete_chat_title": "Sohbeti Sil",
+                "delete_chat_description": "Sohbetiniz silinecek. Bu işlem geri alınamaz!",
+                "delete_chat_positive_button": "Sil"
+            }
+        }
+    }
+}

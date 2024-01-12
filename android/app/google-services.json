@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "250443301984",
+    "project_id": "kindergarden-mobile",
+    "storage_bucket": "kindergarden-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250443301984:android:ea20175f4f7a2525c2ef05",
+        "android_client_info": {
+          "package_name": "com.veinapps.kindergarden"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS7blzbZ6ziPA_GY3EQ7ccUDqEhDN2g8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

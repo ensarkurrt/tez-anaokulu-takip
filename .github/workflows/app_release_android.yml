@@ -1,0 +1,63 @@
+name: Deploy To Google Play
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - master
+
+jobs:
+  deploy:
+    # This job will run on macos virtual machine
+    runs-on: macos-latest
+    steps:
+      # Setup Java environment in order to build the Android app.
+      - uses: actions/checkout@master
+
+      - name: Setup JDK
+        uses: actions/setup-java@v1
+        with:
+          java-version: '12.x'
+
+      - name: Setup Fastlane and Plugins
+        run: |
+          cd ./android/fastlane
+          bundle install
+          brew install fastlane
+          bundle exec fastlane add_plugin android_versioning
+
+      - name: Increment Version Name (Patch)
+        if: contains(github.event.pull_request.labels.*.name, 'patch')
+        run: |
+          cd ./android
+          bundle exec fastlane bump_version_for_google_play firebase_cli_token:${{ secrets.FIREBASE_CLI_TOKEN }} bump_type:"patch"
+
+      - name: Increment Version Name (Minor)
+        if: contains(github.event.pull_request.labels.*.name, 'minor')
+        run: |
+          cd ./android
+          bundle exec fastlane bump_version_for_google_play firebase_cli_token:${{ secrets.FIREBASE_CLI_TOKEN }} bump_type:"minor"
+
+      - name: Increment Version Name (Major)
+        if: contains(github.event.pull_request.labels.*.name, 'major')
+        run: |
+          cd ./android
+          bundle exec fastlane bump_version_for_google_play firebase_cli_token:${{ secrets.FIREBASE_CLI_TOKEN }} bump_type:"major"
+
+      - name: Setup the flutter and build the apk
+        uses: subosito/flutter-action@master
+        with:
+          channel: 'stable'
+      - run: flutter pub get
+      - run: flutter build appbundle --release
+
+      #- name: Commit the version number change
+      #  uses: stefanzweifel/git-auto-commit-action@v4.16.0
+      #  with:
+      #    branch: development
+      #    commit_message: version name change after production to google play
+
+      - name: Deploy to Android Google Play
+        run: |
+          cd ./android
+          bundle exec fastlane deploy_google_play
